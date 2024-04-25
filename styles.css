@@ -1,0 +1,22 @@
+.scorecard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* 4 columns for Hole, Handicap, Yardage, Par */
+  gap: 5px;
+  border: 1px solid #ccc;
+}
+
+.header {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
+
+.hole {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
